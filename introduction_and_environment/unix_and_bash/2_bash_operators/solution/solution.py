@@ -1,7 +1,7 @@
 
 # Assign the correct strings below
-ONE = ''
-TWO = ''
-THREE = ''
-FOUR = ''
-FIVE = ''
+ONE = 'mkdir testdir | cd testdir'
+TWO = 'cat textfile.txt | grep "and" textfile.txt'
+THREE = 'ls -a >> contents.txt'
+FOUR = 'mkdir -p current'
+FIVE = 'pwd > current_path.txt'
