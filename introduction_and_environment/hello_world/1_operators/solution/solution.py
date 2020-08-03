@@ -1,4 +1,8 @@
-def div_equals(x, y):
-    quotient = x // y
-    remainder = x % y
-    return quotient == remainder
+x = 12
+y = 5
+
+quotient = x // y
+remainder = x % y
+
+print(quotient)
+print(remainder)

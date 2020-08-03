@@ -1,5 +1,5 @@
-string1 = ""
-string2 = ""
+string_1 = "Hello"
+string_2 = "World!"
 
-result = string1 + string2
+result = string_1 + string_2
 
