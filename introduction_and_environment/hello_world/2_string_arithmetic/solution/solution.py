@@ -1,2 +1,2 @@
 # Code your solution here
-str_arithmetic = 2
+STR_ARITHMETIC = 2

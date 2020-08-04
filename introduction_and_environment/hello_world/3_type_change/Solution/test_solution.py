@@ -1,7 +1,7 @@
 
 def test_solution(monkeypatch):
-    ret_val1= None
-    ret_val2=None
+    ret_val1 = None
+    ret_val2 = None
 
     def g(num1,num2):
         nonlocal ret_val1
@@ -13,6 +13,6 @@ def test_solution(monkeypatch):
 
     import solution
     assert type(solution.object_1) == float
-    assert type(solution.object_2_ == str
+    assert type(solution.object_2) == str
     assert type(ret_val1) == str
     assert type(ret_val2) == int

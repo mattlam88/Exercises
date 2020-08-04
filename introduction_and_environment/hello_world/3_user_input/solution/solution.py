@@ -1,7 +1,7 @@
-first_num = int(input("First num: "))
-second_num = int(input("Second num: "))
-third_num = int(input("Third num: "))
+FIRST_NUM = int(input())
+SECOND_NUM = int(input())
+THIRD_NUM = int(input())
 
-average_num = ((first_num + second_num + third_num) / 3)
+average_num = ((FIRST_NUM + SECOND_NUM + THIRD_NUM) / 3)
 
 print(average_num)

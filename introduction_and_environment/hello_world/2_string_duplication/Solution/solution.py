@@ -1,5 +1,5 @@
-string_1 = input("Input string: ")
-dup_val = input("# of times to duplicate string: ")
+string_1 = input()
+dup_val = input()
 
 data = string_1 * int(dup_val)
 
