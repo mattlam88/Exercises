@@ -10,6 +10,6 @@ def test_solution(monkeypatch):
     monkeypatch.setattr('builtins.print',g)
     
     import solution
-    assert ret_val == "a.John Von Neuman"
+    assert ret_val == "a.John Von Neumann"
     
 
