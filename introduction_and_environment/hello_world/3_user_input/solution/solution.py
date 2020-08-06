@@ -5,3 +5,4 @@ THIRD_NUM = int(input())
 average_num = ((FIRST_NUM + SECOND_NUM + THIRD_NUM) / 3)
 
 print(average_num)
+
