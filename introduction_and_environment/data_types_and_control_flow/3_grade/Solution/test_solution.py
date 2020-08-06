@@ -14,7 +14,7 @@ def test_solution(monkeypatch):
     monkeypatch.setattr('builtins.print',g)
 
     import solution
-    assert solution.mark==x
+    assert solution.marks==x
 
 
 
