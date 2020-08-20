@@ -1,5 +1,8 @@
 # Code your solution here
 def concat_args(*args):
-    return
+    string = ""
+    for arg in args:
+        string += arg
+    return string
 
 
