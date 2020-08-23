@@ -1,3 +1,6 @@
 # Write your solution here
 def reverse(string):
-    return
+    if string == "":
+        return ""
+    return  string[-1] + reverse(string[:-1])
+    
