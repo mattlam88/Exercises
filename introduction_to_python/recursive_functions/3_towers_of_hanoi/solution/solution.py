@@ -5,7 +5,7 @@ def tower_of_hanoi(n , from_rod, to_rod, aux_rod):
         while len(from_rod) > 0:
             to_rod.append(from_rod.pop())
         
-        return tower_of_hanoi(n-1, to_rod, aux_rod, from_rod)
+        return tower_of_hanoi(n-1, to_rod,aux_rod, from_rod)
 
 
 # from_rod = [1,2,3]
