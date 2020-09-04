@@ -29,4 +29,10 @@ class Queue:
 
     # Fill in the code for __len__
     def __len__(self):
-        return
+        cur_node = self.head_node
+        num_node = 0
+
+        while cur_node:
+            num_node += 1
+            cur_node = cur_node.next
+        return num_node

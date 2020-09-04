@@ -22,4 +22,11 @@ class Stack:
 
     # Fill in the code for __len__
     def __len__(self):
-        return
+        head_node = self.head_node
+        num_nodes = 0
+        if head_node == None:
+            return 0
+        while head_node:
+            num_nodes += 1
+            head_node = head_node.next
+        return num_nodes

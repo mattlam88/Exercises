@@ -22,8 +22,18 @@ class Stack:
 
     # You may want to solve this magic method first!
     def __len__(self):
-        return
+        head_node = self.head_node
+        num_nodes = 0
+
+        if head_node == None:
+            return 0
+        while head_node:
+            num_nodes += 1
+            head_node = head_node.next
+        return num_nodes
 
     # Fill in the code for __len__
     def __eq__(self, other):
-        return
+        if len(self) == len(other):
+            return True
+        return False
