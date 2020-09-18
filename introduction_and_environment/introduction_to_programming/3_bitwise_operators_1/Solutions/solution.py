@@ -6,4 +6,3 @@ Answer_or = bin(x | y)
 Answer_not = bin(~ x)
 
 print(Answer_and, Answer_or, Answer_not)
-
