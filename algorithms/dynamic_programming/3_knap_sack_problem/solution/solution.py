@@ -17,7 +17,12 @@ def knap_sack(x, items):
             elif wt_lst[i-1] <= w: 
                 K[i][w] = max(val_lst[i-1] + K[i-1][w-wt_lst[i-1]],  K[i-1][w]) 
             else: 
-                K[i][w] = K[i-1][w] 
+                K[i][w] = K[i-1][w]
+    for k in K:
+        print(k)
+    print(x)
+    print(num_items)
+
     return K[num_items][x]
 
 print(knap_sack(5, {"hat": (1,2), "sunscreen": (3,2), "food": (6,4), "water": (5,3)}))
